@@ -1,0 +1,51 @@
+.cart{
+    border: 1px solid;
+    background-color: rgb(197, 29, 172);
+    padding: 1em;
+    margin: 1em;
+    flex: 3;
+}
+
+body {
+    background-color: rgb(51, 241, 228);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.table {
+    border: 5em;
+    padding: 1em;
+    margin: 1em;
+    flex: 3;
+}
+@media(min-width:960){
+    .pizzas {
+        display: flex;
+    }
+}
+.pizza {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid rgb(255, 0, 195);
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    display: inline-block;
+    flex: 1em;
+}
+th,td {
+    border: 1px solid purple;
+    background-color: palevioletred;
+}
+.medium {
+    background-color: #fc53c6;
+}
+
+.large {
+    background-color: peachpuff;
+}
+
+.small {
+    background-color: palevioletred;
+}
+
+.contacts {
+    background-color: pink;
+}
